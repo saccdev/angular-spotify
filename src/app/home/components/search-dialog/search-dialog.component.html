@@ -1,0 +1,9 @@
+<h1 mat-dialog-title>Choose an Artist</h1>
+<div mat-dialog-content>
+  <ul *ngFor="let artist of data.artists.items">
+    <div (click)="onNoClick()">
+      <li>{{artist.name}}</li>
+      <img [src]="artist.images[0].url" alt="">
+    </div>
+  </ul>
+</div>

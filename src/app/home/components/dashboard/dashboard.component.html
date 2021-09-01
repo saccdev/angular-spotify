@@ -1,0 +1,34 @@
+<div class="dashboard">
+  <div class="image-section">
+    <img src="assets/images/spotify-logo.svg" alt="">
+  </div>
+  <div class="search-section">
+    <mat-form-field appearance="outline">
+      <mat-label>Search Playlist by Singer</mat-label>
+      <input matInput placeholder="Singer Name" [formControl]="singerName">
+      <mat-icon matSuffix (click)="findSingerByName()">
+        <span class="material-icons">
+          search
+        </span>
+      </mat-icon>
+    </mat-form-field>
+  </div>
+</div>
+
+<!-- <mat-grid-list cols="1" rowHeight="33.3vh">
+  <mat-grid-tile>
+    <img src="assets/images/spotify-logo.svg" alt="">
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <mat-form-field appearance="outline">
+      <mat-label>Search Playlist by Singer</mat-label>
+      <input matInput placeholder="Singer Name">
+      <mat-icon matSuffix (click)="openDialog()">
+        <span class="material-icons">
+          search
+        </span>
+      </mat-icon>
+    </mat-form-field>
+  </mat-grid-tile>
+  <mat-grid-tile>No hay Información Disponible</mat-grid-tile>
+</mat-grid-list> -->

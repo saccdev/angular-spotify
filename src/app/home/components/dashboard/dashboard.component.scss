@@ -1,0 +1,23 @@
+mat-icon {
+    cursor: pointer;
+}
+
+mat-form-field {
+    width: 400px;
+}
+.dashboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-section {
+    height: 200px;
+    img {
+        transform: scale(0.4);
+    }
+}
+
+.search-section {
+    align-self: center;
+    // background: red;
+}
